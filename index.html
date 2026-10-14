@@ -531,7 +531,6 @@ function render(list) {
       <div class="card-body">
         <div class="card-code">#${p.code}</div>
         <div class="card-name">${p.name}</div>
-        <div class="card-price${isAgotada ? ' agotada-price' : ''}">${fmt(p.price)}${isAgotada ? '<span class="agotada-badge">Agotada</span>' : ''}</div>
       </div>
     </div>`;
   }).join('');
